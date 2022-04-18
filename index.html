@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>lykkeapparel</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-settings">
+    <div class="container-fluid">
+      <a aria-current="page" href="#" style="font-weight:bold;">
+
+        <img class="headerLogo" src="images/Lykeapparels.png" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main_nav">
+        <ul class="navbar-nav">
+
+          <li class="nav-item active nav-size"><a class="nav-link" href="#">Gallery</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Category</a>
+            <ul class="dropdown-menu">
+              <li>
+                <h6 href="#" style="padding-left: 10px;  font-family: Montserrat; text-transform: capitalize;" class="fromCenter"> Mens</h6>
+              </li>
+              <li>
+                <h6 href="#" style="padding-left: 10px;  font-family: Montserrat; text-transform: capitalize;" class="fromRight"> Womens</h6>
+              </li>
+              <li>
+                <h6 href="#" style="padding-left: 10px;  font-family: Montserrat; text-transform: capitalize;" class="fromLeft"> Kids </h6>
+              </li>
+            </ul>
+          <li class="nav-item"><a class="nav-link" href="#"> Contact us </a></li>
+          </li>
+        </ul>
+      </div> <!-- navbar-collapse.// -->
+
+      <!-- Search bar -->
+      <div id="cover">
+        <form method="get" action="" style="width: 200px; height: 40px; padding-top: 3px;">
+          <div class="tb">
+            <div class="td"><input type="text" placeholder="Search" required></div>
+            <div class="td" style="width: 60px; height: 40px;" id="s-cover">
+              <button type="submit" style="width: 30px; height: 20px;">
+                <div id="s-circle"></div>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div> <!-- container-fluid.// -->
+  </nav>
+
+  <!-- Slide-section-->
+  <div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Banner-wear.png" class="d-block w-100" alt="...">
+      </div>
+      
+
+    </div>
+    <a class="carousel-control-prev" data-bs-target="#carouselIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" data-bs-target="#carouselIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <!-- styles-block -->
+  <section id="features">
+    <div class="styles-block">
+      <div class="row">
+        <div class="styles col-lg">
+          <h3 class="feature-text">STYLES</h3>
+          <p class="feature-dis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida ipsum neque.</p>
+        </div>
+
+        <span class="section ">
+          <span class="hscroll"></span>
+        </span>
+
+
+        <div class="v-neck col-lg">
+          <img class="vneckImg" src="images/v neck.png" alt="vneckImg" />
+          <p class="vneckImg-dis">V - NECK</p>
+        </div>
+        <div class="collar col-lg">
+          <img class="collarImg" src="images/collar.png" alt="collarImg" />
+          <p class="collarImg-dis">COLLAR</p>
+        </div>
+
+        <div class="round col-lg">
+          <img class="roundImg" src="images/round.png" alt="roundImg" />
+          <p class="roundImg-dis">ROUND</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- About Our Work -->
+  <section id="aboutUs">
+    <div class="row">
+
+      <div class=" grid  scrollzoom col-lg-5">
+
+        <figure class="effect-julia">
+          <img class="scrollzooming " src="images/woman-tailor.png" style="" alt="woman-tailor" />
+
+          <figcaption>
+            <h2>Passionate <span>Work</span></h2>
+            <div>
+              <p>It takes nine tailors to make a man</p>
+              <p>Crafts make us feel rooted</p>
+              <p>Art not you see,make others see.</p>
+            </div>
+            <a href="#">View more</a>
+          </figcaption>
+
+
+      </div>
+
+      <div class="aboutwork col-lg-6">
+        <h2 class="about-text">ABOUT OUR MANUFACTURING UNIT</h2>
+        <span class="aboutDis" style="background-image: url('images/aboutus-bg.png');">
+
+          <p class="about-dis">This webpage requires data that you entered earlier in order to be properly displayed. You can send this data again, but by doing so you will repeat any action this page previously performed. This webpage requires data
+            that you entered earlier in order to be properly displayed. You can send this data again, but by doing so you will repeat any action this page previously performed.</p>
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- New Collections -->
+  <section id="newcollection">
+    <div class="row collection-new" >
+      <div class="col-lg-6">
+        <h5 class="collection-heading">New Collections</h5>
+        <h2 class="collections">Get the best look of the year</h2>
+        <p class="collection-dis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida ipsum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida ipsum neque.</p>
+        <!-- counters -->
+
+        <section class="overlay-container">
+          <img class="img-container" src="images/Tie-Ups.png" style="" alt="Tie-Ups" />
+          <div class="overlay">
+            <h2 class="overlayh2">Tie Ups</h2>
+            <p class="overlayp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </section>
+
+
+        <section class="overlay-container1">
+          <img class="img-container1" src="images/Quality.png" style="" alt="Quality" />
+          <div class="overlay1">
+            <h2 class="overlayh2">Quality</h2>
+            <p class="overlayp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </section>
+
+
+        <section class="overlay-container2">
+          <img class="img-container2" src="images/experience.png" style="" alt="experience" />
+          <div class="overlay2">
+            <h2 class="overlayh2">Experience</h2>
+            <p class="overlayp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+
+        </section>
+
+
+        <section class="overlay-container3">
+          <img class="img-container3" src="images/Happy.png" style="" alt="Happy" />
+          <div class="overlay3">
+            <h2 class="overlayh2">Happy Clients</h2>
+            <p class="overlayp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </section>
+
+      </div>
+      <!-- counters -->
+
+      <div class="container col-lg-6">
+        <div class="box">
+          <img src="https://i.pinimg.com/originals/5c/09/c4/5c09c4dc82dc441dfb26975fe8dc1634.jpg">
+          <span>VESTS</span>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/564x/d5/06/19/d50619ae8fd3eddff5761a378cfa73f3.jpg">
+          <span>ROUND</span>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/564x/be/38/b9/be38b90fa88a0eb361ed90158670b114.jpg">
+          <span>V-NECK</span>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/564x/09/68/c6/0968c61c1e155381596ca5d388cca27b.jpg">
+          <span>COLLAR</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- New Collections -->
+
+  <!-- Trends -->
+  <section id="newtrends">
+    <h2 class="trendsh2">Outfit of the day collections</h2>
+    <p class="trendsp">Lorem ipsum dolor sit amet, consectetur adipiscing
+    </p>
+      <!-- Running images1 -->
+      <div class="trusted">
+        <div class="trusted-row">
+        </div>
+      </div>
+      <!-- Running images2 -->
+      <div class="trustednew">
+        <div class="trustednew-row">
+        </div>
+      </div>
+        </section>
+  <!-- Trends-->
+
+
+<!-- Process -->
+
+<section id="process">
+<div class = "paddingSlidesBig pt-30 pb-50">
+<div class =  "text-center pb-30">
+  <h2 class="pb-1 letterSpacing3 fontWeightBold lineHeight1_7 colorDark letterSpacing3">For buyers, fabric suppliers and <br>apparel manufacturers</h2>
+  <hr class="hrStyle mb-30 mt-10">
+</div>
+</div>
+
+
+<div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-1 row-cols-1">
+
+
+
+<div class="text-center">
+    <div class="startedIconContent position-relative d-block beforeElement">
+      <div class="startedIcon position-relative d-inline-block">
+<img class="position-absolute" src ="images/search.png" alt="Searchitem">
+      </div>
+      <div class="p-20 pl-lg-44 pr-lg-4 pl-md-3 pr-md-3 pl-0 pr-0">
+        <p class="font16 fontWeightBold colorDark">Sellect Product</p>
+        <p class="font14 colorDark">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+      </div>
+</div>
+    </div>
+
+
+<div class="text-center">
+<div class="startedIconContent position-relative d-block beforeElement">
+      <div class="startedIcon position-relative d-inline-block">
+      <img class="position-absolute" src ="images/customer-service.png" alt="Searchitem">
+      </div>
+      <div class="p-20 pl-lg-44 pr-lg-4 pl-md-3 pr-md-3 pl-0 pr-0">
+        <p class="font16 fontWeightBold colorDark">Make a call</p>
+        <p class="font14 colorDark">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+      </div>
+      </div>
+</div>
+
+<div class="text-center">
+  <div class="startedIconContent position-relative d-block beforeElement">
+      <div class="startedIcon position-relative d-inline-block">
+      <img class="position-absolute" src ="images/tracking.png" alt="Searchitem">
+      </div>
+      <div class="p-20 pl-lg-44 pr-lg-4 pl-md-3 pr-md-3 pl-0 pr-0">
+        <p class="font16 fontWeightBold colorDark">Place your Order</p>
+        <p class="font14 colorDark">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+      </div>
+</div>
+</div>
+
+<div class="text-center">
+      <div class="startedIcon position-relative d-inline-block">
+      <img class="position-absolute" src ="images/package.png" alt="Searchitem">
+      </div>
+      <div class="p-20 pl-lg-44 pr-lg-4 pl-md-3 pr-md-3 pl-0 pr-0">
+        <p class="font16 fontWeightBold colorDark">Get Your T-shirts</p>
+        <p class="font14 colorDark">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+      </div>
+</div>
+  </div>
+</section>
+<!-- Process -->
+
+
+<!-- Testimonials -->
+<div class= "Testimonials">
+
+  <div class="row">
+          <div class="col-lg-6">
+  <h2 class="Testimonialsh2">From the people</h2>
+<div class="testimonial-container">
+  <div class="progress-bar"></div>
+  <div class="fas fa-quote-right fa-quote"></div>
+
+  <p class="client-review-stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </p>
+    <p class="testimonial">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida ipsum neque. Lorem ipsum dolor sit amet, consectetur adipiscing
+    </p>
+  <div class="user">
+    <img
+         src="https://randomuser.me/api/portraits/women/40.jpg"
+         alt="user"
+         class="user-image"
+         />
+    <div class="user-details">
+      <h4 class="username">Miyah</h4>
+      <p class="role">Chennai</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-4">
+<img class="Testimonials-image" src ="images/Testimonials.png" alt="Testimonials">
+</div>
+</div>
+</div>
+<!-- Testimonials -->
+
+
+<!-- footer -->
+  <section id="footersec">
+    <div class="row footer">
+
+            <div class="col-lg-6">
+    <div class= "address">
+      <img class="footerLogo" src="images/footerlogo.png" alt="Logo" />
+      <p class="footer-add">7146 Mayert Trail,<br>
+New Libbie,<br>
+New Libbie Road,<br>
+Tiruppur - 641035</p>
+    </div>
+      </div>
+
+<div class="col-lg-3">
+    <div class= "information">
+      <h4 class= "information-title">Information</h4>
+      <ul class= "information-list">
+          <a class= "information-dis" href="" title="Home">Category</a>
+          <br>
+          <a class= "information-dis" href="" title="Gallery">Gallery</a>
+          <br>
+          <a class= "information-dis" href="" title="Contact us">Contact us</a>
+
+      </ul>
+  </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class= "social-section">
+      <h4 class= "social-media">Social Media</h4>
+      <ul class= "social-logo">
+        <img class="fb-logo" src ="images/fb.png" alt="fb-logo">
+        <br>
+        <img class="fb-logo" src ="images/insta.png" alt="insta-logo">
+        </ul>
+          </div>
+      </div>
+      <hr class= "footer-line">
+      <span class= "rights-footer">
+        <a class= "rights">Ⓒ2022 All rights reserved</a>
+      </span>
+
+    </div>
+    </section>
+
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
