@@ -1540,6 +1540,10 @@ font-family: 'Montserrat';
       background: #F6F8F5;
       border-radius: 0px 25px 25px 0px;
   }
+.font14 {
+    width: 197px;
+    margin-left: 90px;
+}
 
 .footer {
     position: absolute;
